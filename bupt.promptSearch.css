@@ -1,0 +1,34 @@
+.bupt-promptSearch-wrapper-container{
+	border: 2px solid #cfc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	background: url(./resources/icon-search.png);
+	background-repeat: no-repeat;
+	background-size:30px 20px;
+	background-position:center right;
+}
+.bupt-promptSearch-wrapper-container .bupt-promptSearch-search-input{
+	font-size: 16px;
+	line-height: 16px;
+	border: none;
+	outline: none;
+	margin-left:5px;
+}
+.bupt-promptSearch-wrapper-container .bupt-promptSearch-ul-container{
+	border: 1px solid #ccc;
+	display: none;
+}
+.bupt-promptSearch-wrapper-container .bupt-promptSearch-ul-container li{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	margin-left: -35px;
+}
+.bupt-promptSearch-wrapper-container .bupt-promptSearch-ul-container .bupt-prompt-li-ative{
+	background-color: #eee;
+}
+.bupt-promptSearch-wrapper-container .bupt-promptSearch-ul-container .bupt-prompt-li-unative{
+	background-color: #fff;
+}
