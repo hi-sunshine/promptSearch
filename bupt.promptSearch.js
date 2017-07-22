@@ -4,7 +4,7 @@
 	//build the ui
 	promptSearch.ui = function(id, params){
 		var $obj = document.getElementById(id);
-		var $width = parseInt(params.width) || 250;
+		var $width = parseInt(params.width) || 400;
 		var $height = parseInt(params.height) || 30;
 		if($height>35 || $height<25){
 			$height = 30;
